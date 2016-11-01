@@ -1,2 +1,2 @@
 # farmacia
-Farmacia gratuita. Publicación donaciones en medicamentos sobrantes.
+Farmacia gratuita. Publicación de donaciones en medicamentos sobrantes.
