@@ -9,18 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.title = 'Farmacia Real';
+var MedicinesComponent = (function () {
+    function MedicinesComponent() {
     }
-    AppComponent = __decorate([
+    MedicinesComponent.prototype.ngOnInit = function () {
+    };
+    MedicinesComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n        <h1>{{title}}</h1>\n        <a routerLink=\"/dashboard\">Dashboard</a>\n        <a routerLink=\"/medicamentos\">Medicamentos</a>\n        <router-outlet></router-outlet>\n    " // ex <medicines></medicines>
+            selector: 'medicines',
+            template: '<h2>jeluou</h2>'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], MedicinesComponent);
+    return MedicinesComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.MedicinesComponent = MedicinesComponent;
+//# sourceMappingURL=medicines.component.js.map
