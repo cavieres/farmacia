@@ -9,22 +9,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var medicine_service_1 = require('./medicine.service');
-var MedicinesComponent = (function () {
-    function MedicinesComponent(medicineService) {
-        this.name = '';
-        this.name = medicineService.medicineName;
+var MedicineService = (function () {
+    function MedicineService() {
+        this.medicineName = 'Panadol';
     }
-    MedicinesComponent.prototype.ngOnInit = function () {
-    };
-    MedicinesComponent = __decorate([
-        core_1.Component({
-            selector: 'medicines',
-            template: '<h2>{{name}}</h2>'
-        }), 
-        __metadata('design:paramtypes', [medicine_service_1.MedicineService])
-    ], MedicinesComponent);
-    return MedicinesComponent;
+    MedicineService = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [])
+    ], MedicineService);
+    return MedicineService;
 }());
-exports.MedicinesComponent = MedicinesComponent;
-//# sourceMappingURL=medicines.component.js.map
+exports.MedicineService = MedicineService;
+//# sourceMappingURL=medicine.service.js.map
