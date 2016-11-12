@@ -14,6 +14,7 @@ var app_routing_module_1 = require('./app-routing.module');
 var app_component_1 = require('./app.component');
 var dashboard_component_1 = require('./dashboard.component');
 var medicines_component_1 = require('./medicines.component');
+var medicine_service_1 = require('./medicine.service');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -28,6 +29,7 @@ var AppModule = (function () {
                 dashboard_component_1.DashboardComponent,
                 medicines_component_1.MedicinesComponent
             ],
+            providers: [medicine_service_1.MedicineService],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
